@@ -35,7 +35,6 @@
       
       <div class="container">
 
-        <div class="col-md-6"> 
 			<div ng-repeat="movie in movies" class="col-md-6">
 				<div class="thumbnail">
 
@@ -46,7 +45,7 @@
 					<p class="score"><i class="fa fa-star" aria-hidden="true"></i> {{movie.iscore}} </p>
 					<p class="runtime">Runtime: {{timeText(movie.runtime)}}</p> 
 					<p class="released">Released: {{movie.released | date}} | Rated: {{movie.rating}}</p>
-					<p class="websites">Websites: <a ng-href="{{movie.imdb}}">{{movie.imdb}}</a> | <a ng-href="{{movie.website}}">{{movie.website}}</a></p>
+					<p class="websites">Websites:  <a ng-href="{{movie.imdb}}">{{movie.imdb}}</a> | <a ng-href="{{movie.website}}">{{movie.website}}</a></p>
 					
 		            <div class="social">
 		              <p class="likes" ng-click="like($index)"><i class="fa fa-thumbs-up" aria-hidden="true"></i> {{movie.likes}}</p>
@@ -54,7 +53,6 @@
 		            </div>
 				</div>
             </div> 
-        </div>
 
       </div>
     </div>
