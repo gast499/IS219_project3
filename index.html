@@ -21,17 +21,17 @@
 	
 </head>
 
-  <body ng-app = IS219App>
+  <body ng-app="IS219Gallery">
 	  
-    <div class="header" ng-controller = "HomeController">
+    <div class="header" ng-controller="HomeController">
 	    
       <div class="container">
-        <h1 id="app_title">%title%</h1>
+        <h1 id="app_title">{{title}}</h1>
       </div>
       
     </div>
 
-    <div class="main">
+    <div class="main" ng-controller="HomeController">
       
       <div class="container">
 
@@ -58,9 +58,9 @@
     </div>
 
     <div class="footer">
-      <div class="container">
-		<a id="github" class="btn btn-lg btn-warning">
-			<i class="fa fa-lg fa-github pull-left" aria-hidden="true"></i> %owner% %github%
+      <div class="container" ng-controller="HomeController">
+		<a id="github" ng-href="{{github}}" class="btn btn-lg btn-warning">
+			<i class="fa fa-lg fa-github pull-left" aria-hidden="true"></i> {{owner}} 
   		</a>
       </div>
     </div>
