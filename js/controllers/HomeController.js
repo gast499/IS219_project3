@@ -88,8 +88,49 @@ app.controller('HomeController', ['$scope', function($scope) {
       likes:	812,
       dislikes:	101,
       posterindex: 0
+	},
+    { 
+      title:	'Big Hero 6', 
+      iscore:	7.8,
+      rating:	'PG',
+      runtime:	102,
+      released:	new Date('2014', '11', '7'),
+      country:	'USA',
+      posters:	['img/bh6-1.jpg', 'img/bh6-2.jpg'],
+      imdb:		'http://www.imdb.com/title/tt2245084',
+      website:	'https://movies.disney.com/big-hero-6',
+      likes:	1001,
+      dislikes: 12,
+      posterindex: 0
+	},
+    { 
+      title:	'Lion King', 
+      iscore:	8.5,
+      rating:	'G',
+      runtime:	88,
+      released:	new Date('1994', '6', '24'),
+      country:	'USA',
+      posters:	['img/lk-1.jpg', 'img/lk-2.jpg'],
+      imdb:		'http://www.imdb.com/title/tt0110357',
+      website:	'http://movies.disney.com/the-lion-king',
+      likes:	1441,
+      dislikes:	91,
+      posterindex: 0
+	},
+    { 
+      title:	'Wreck It Ralph', 
+      iscore:	7.8,
+      rating:	'PG',
+      runtime:	101,
+      released:	new Date('2012', '11', '2'),
+      country:	'USA',
+      posters:	['img/wir-1.jpg', 'img/wir-2.jpg'],
+      imdb:		'http://www.imdb.com/title/tt1772341',
+      website:	'http://movies.disney.com/wreck-it-ralph',
+      likes:	744,
+      dislikes:	86,
+      posterindex: 0
 	}
-	
 	
   ];
 	
