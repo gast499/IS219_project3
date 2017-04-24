@@ -1,1 +1,1 @@
-var app = angular.module('IS219App', []);
+var app = angular.module('IS219Gallery', []);
