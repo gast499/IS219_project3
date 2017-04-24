@@ -5,7 +5,7 @@
 
 	<!-- Our CSS File along with Boostrap Styles, and FontAwesome Styles-->
 	<link rel="stylesheet" type='text/css' href="css/style.css"/>
-	<link rel="stylesheet" type='text/css' href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" type='text/css' href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 	<link rel="stylesheet" type='text/css' href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	
 	<!-- jQuery -->
@@ -45,7 +45,7 @@
 					<p class="score"><i class="fa fa-star" aria-hidden="true"></i> {{movie.iscore}} </p>
 					<p class="runtime">Runtime: {{timeText(movie.runtime)}}</p> 
 					<p class="released">Released: {{movie.released | date}} | Rated: {{movie.rating}}</p>
-					<p class="websites">Websites:  <a ng-href="{{movie.imdb}}">{{movie.imdb}}</a> | <a ng-href="{{movie.website}}">{{movie.website}}</a></p>
+					<p class="websites">Websites: <a ng-href="{{movie.imdb}}">{{movie.imdb}}</a> | <a ng-href="{{movie.website}}">{{movie.website}}</a></p>
 					
 		            <div class="social">
 		              <p class="likes" ng-click="like($index)"><i class="fa fa-thumbs-up" aria-hidden="true"></i> {{movie.likes}}</p>
